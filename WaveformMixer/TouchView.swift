@@ -11,7 +11,6 @@ import Foundation
 class TouchView: UIView {
     
     var voicesInput = "voices" // Receiver in Pd to send messages to
-    let numVoices = 10
     
     var nextVoice: Int {
         get {
@@ -38,14 +37,6 @@ class TouchView: UIView {
         for currentTouchObject in touches {
             let currentTouch = currentTouchObject as! UITouch
             
-            var isNewTouch = true
-            for (touch, voice) in allTouches {
-                if currentTouch == touch {
-                    isNewTouch = false
-                }
-            }
-            
-            if isNewTouch {
                 let currentVoice = nextVoice
                 allTouches[currentTouch] = currentVoice
                 
@@ -54,7 +45,6 @@ class TouchView: UIView {
                 
                 PdBase.sendList([currentVoice, "pitch", pitch], toReceiver: voicesInput)
                 PdBase.sendList([currentVoice, "volume", volume], toReceiver: voicesInput)
-            }
         }
     }
     

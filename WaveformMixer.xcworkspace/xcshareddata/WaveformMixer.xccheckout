@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EA7647CF-72B4-48F3-8526-930516A3A3A6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WaveformMixer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E13C231FD0865A2BA649D6820813514854805B7B</key>
+		<string>https://github.com/cpenny42/WaveformMixer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WaveformMixer.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E13C231FD0865A2BA649D6820813514854805B7B</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cpenny42/WaveformMixer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E13C231FD0865A2BA649D6820813514854805B7B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E13C231FD0865A2BA649D6820813514854805B7B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WaveformMixer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
