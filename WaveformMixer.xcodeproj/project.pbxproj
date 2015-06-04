@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8389DE3DEF528B0DC2A968F8 /* libPods-WaveformMixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 808D8B640FA2A2110CB7E758 /* libPods-WaveformMixer.a */; };
 		FA0020941B1FCB8F007305B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0020931B1FCB8F007305B8 /* main.m */; };
 		FA0020971B1FCB8F007305B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0020961B1FCB8F007305B8 /* AppDelegate.m */; };
-		FA00209A1B1FCB8F007305B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0020991B1FCB8F007305B8 /* ViewController.m */; };
 		FA00209D1B1FCB8F007305B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA00209B1B1FCB8F007305B8 /* Main.storyboard */; };
 		FA00209F1B1FCB8F007305B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA00209E1B1FCB8F007305B8 /* Images.xcassets */; };
 		FA0020A21B1FCB8F007305B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0020A01B1FCB8F007305B8 /* LaunchScreen.xib */; };
 		FA0020AE1B1FCB8F007305B8 /* WaveformMixerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0020AD1B1FCB8F007305B8 /* WaveformMixerTests.m */; };
+		FA0020B91B1FCC15007305B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0020B81B1FCC15007305B8 /* ViewController.swift */; };
+		FA0020BB1B1FDAF1007305B8 /* main.pd in Resources */ = {isa = PBXBuildFile; fileRef = FA0020BA1B1FDAF1007305B8 /* main.pd */; };
+		FA0020BD1B1FE01C007305B8 /* voice.pd in Resources */ = {isa = PBXBuildFile; fileRef = FA0020BC1B1FE01C007305B8 /* voice.pd */; };
+		FA0020BF1B1FEB2D007305B8 /* TouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0020BE1B1FEB2D007305B8 /* TouchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +31,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		587A17080B53C0390C6ED37F /* Pods-WaveformMixer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaveformMixer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaveformMixer/Pods-WaveformMixer.debug.xcconfig"; sourceTree = "<group>"; };
+		620BCDBDA078C59DC071B1B5 /* Pods-WaveformMixer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaveformMixer.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaveformMixer/Pods-WaveformMixer.release.xcconfig"; sourceTree = "<group>"; };
+		808D8B640FA2A2110CB7E758 /* libPods-WaveformMixer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WaveformMixer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA00208E1B1FCB8F007305B8 /* WaveformMixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveformMixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0020921B1FCB8F007305B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA0020931B1FCB8F007305B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA0020951B1FCB8F007305B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FA0020961B1FCB8F007305B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FA0020981B1FCB8F007305B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FA0020991B1FCB8F007305B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FA00209C1B1FCB8F007305B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA00209E1B1FCB8F007305B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA0020A11B1FCB8F007305B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FA0020A71B1FCB8F007305B8 /* WaveformMixerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveformMixerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0020AC1B1FCB8F007305B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA0020AD1B1FCB8F007305B8 /* WaveformMixerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveformMixerTests.m; sourceTree = "<group>"; };
+		FA0020B71B1FCC15007305B8 /* WaveformMixer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaveformMixer-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA0020B81B1FCC15007305B8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA0020BA1B1FDAF1007305B8 /* main.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.pd; sourceTree = "<group>"; };
+		FA0020BC1B1FE01C007305B8 /* voice.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = voice.pd; sourceTree = "<group>"; };
+		FA0020BE1B1FEB2D007305B8 /* TouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8389DE3DEF528B0DC2A968F8 /* libPods-WaveformMixer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +71,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1007477D7706BF22AF5BA62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				587A17080B53C0390C6ED37F /* Pods-WaveformMixer.debug.xcconfig */,
+				620BCDBDA078C59DC071B1B5 /* Pods-WaveformMixer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E61AD6500C072F0D66A4CA2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				808D8B640FA2A2110CB7E758 /* libPods-WaveformMixer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA0020851B1FCB8F007305B8 = {
 			isa = PBXGroup;
 			children = (
 				FA0020901B1FCB8F007305B8 /* WaveformMixer */,
 				FA0020AA1B1FCB8F007305B8 /* WaveformMixerTests */,
 				FA00208F1B1FCB8F007305B8 /* Products */,
+				E1007477D7706BF22AF5BA62 /* Pods */,
+				E61AD6500C072F0D66A4CA2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,12 +113,15 @@
 			children = (
 				FA0020951B1FCB8F007305B8 /* AppDelegate.h */,
 				FA0020961B1FCB8F007305B8 /* AppDelegate.m */,
-				FA0020981B1FCB8F007305B8 /* ViewController.h */,
-				FA0020991B1FCB8F007305B8 /* ViewController.m */,
+				FA0020B81B1FCC15007305B8 /* ViewController.swift */,
+				FA0020BE1B1FEB2D007305B8 /* TouchView.swift */,
+				FA0020BA1B1FDAF1007305B8 /* main.pd */,
+				FA0020BC1B1FE01C007305B8 /* voice.pd */,
 				FA00209B1B1FCB8F007305B8 /* Main.storyboard */,
 				FA00209E1B1FCB8F007305B8 /* Images.xcassets */,
 				FA0020A01B1FCB8F007305B8 /* LaunchScreen.xib */,
 				FA0020911B1FCB8F007305B8 /* Supporting Files */,
+				FA0020B71B1FCC15007305B8 /* WaveformMixer-Bridging-Header.h */,
 			);
 			path = WaveformMixer;
 			sourceTree = "<group>";
@@ -126,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA0020B11B1FCB8F007305B8 /* Build configuration list for PBXNativeTarget "WaveformMixer" */;
 			buildPhases = (
+				0BBE952AB24F5B353D135374 /* Check Pods Manifest.lock */,
 				FA00208A1B1FCB8F007305B8 /* Sources */,
 				FA00208B1B1FCB8F007305B8 /* Frameworks */,
 				FA00208C1B1FCB8F007305B8 /* Resources */,
+				6215AA3801095E7129C14217 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +203,7 @@
 				TargetAttributes = {
 					FA00208D1B1FCB8F007305B8 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = ERF763QVMZ;
 					};
 					FA0020A61B1FCB8F007305B8 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -199,8 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0020BD1B1FE01C007305B8 /* voice.pd in Resources */,
 				FA00209D1B1FCB8F007305B8 /* Main.storyboard in Resources */,
 				FA0020A21B1FCB8F007305B8 /* LaunchScreen.xib in Resources */,
+				FA0020BB1B1FDAF1007305B8 /* main.pd in Resources */,
 				FA00209F1B1FCB8F007305B8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,12 +252,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BBE952AB24F5B353D135374 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6215AA3801095E7129C14217 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaveformMixer/Pods-WaveformMixer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA00208A1B1FCB8F007305B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA00209A1B1FCB8F007305B8 /* ViewController.m in Sources */,
+				FA0020BF1B1FEB2D007305B8 /* TouchView.swift in Sources */,
+				FA0020B91B1FCC15007305B8 /* ViewController.swift in Sources */,
 				FA0020971B1FCB8F007305B8 /* AppDelegate.m in Sources */,
 				FA0020941B1FCB8F007305B8 /* main.m in Sources */,
 			);
@@ -299,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +409,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -347,21 +419,34 @@
 		};
 		FA0020B21B1FCB8F007305B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 587A17080B53C0390C6ED37F /* Pods-WaveformMixer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WaveformMixer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WaveformMixer/WaveformMixer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		FA0020B31B1FCB8F007305B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620BCDBDA078C59DC071B1B5 /* Pods-WaveformMixer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WaveformMixer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WaveformMixer/WaveformMixer-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -418,6 +503,7 @@
 				FA0020B31B1FCB8F007305B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA0020B41B1FCB8F007305B8 /* Build configuration list for PBXNativeTarget "WaveformMixerTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +512,7 @@
 				FA0020B61B1FCB8F007305B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
